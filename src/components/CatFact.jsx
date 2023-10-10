@@ -24,7 +24,8 @@ const CatFact = () => {
     <>
       <div>
         <p>{fact}</p>
-        <button onClick={toggledButton}>Click</button>
+        <button onClick={toggledButton}>Next Fact</button>
+        <p>{button}</p>
       </div>
     </>
   );
