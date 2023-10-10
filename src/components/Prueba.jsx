@@ -3,9 +3,9 @@ import customFetch from "./Fetching"; // Assuming Prueba.jsx is in the same dire
 const Prueba = () => {
   return (
     <>
-      <h1>sexo</h1>
+      <h1>Hola</h1>
       {customFetch("https://catfact.ninja/fact")}
-      <h2>anal</h2>
+      <h2>Mundo</h2>
     </>
   );
 };
